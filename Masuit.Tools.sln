@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.1.32210.238
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33130.400
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Masuit.Tools", "Masuit.Tools\Masuit.Tools.csproj", "{275D5A0D-C49C-497E-A4B5-F40285C2495F}"
 EndProject
@@ -27,7 +27,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Masuit.Tools.Net45", "Masui
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Masuit.Tools.AspNetCore", "Masuit.Tools.AspNetCore\Masuit.Tools.AspNetCore.csproj", "{73BA93B7-C6AE-4B39-892E-3596D91BF96C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCoreTest", "NetCoreTest\NetCoreTest.csproj", "{144D7A0C-002D-48E4-8814-EA14011CFFFC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetCoreTest", "NetCoreTest\NetCoreTest.csproj", "{144D7A0C-002D-48E4-8814-EA14011CFFFC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrameWork48.Test", "FrameWork48.Test\FrameWork48.Test.csproj", "{64F6C488-2072-4481-89B0-8D1995759175}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -83,6 +85,10 @@ Global
 		{144D7A0C-002D-48E4-8814-EA14011CFFFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{144D7A0C-002D-48E4-8814-EA14011CFFFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{144D7A0C-002D-48E4-8814-EA14011CFFFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64F6C488-2072-4481-89B0-8D1995759175}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64F6C488-2072-4481-89B0-8D1995759175}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64F6C488-2072-4481-89B0-8D1995759175}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64F6C488-2072-4481-89B0-8D1995759175}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -92,6 +98,7 @@ Global
 		{61430D45-3808-49B5-BDF3-4536DA399DD4} = {E0B8FBD1-A28A-4420-9DE2-6BD06035CBAC}
 		{99185F12-DFAD-4DB8-A2C4-C7E9700C0A31} = {E0B8FBD1-A28A-4420-9DE2-6BD06035CBAC}
 		{AB9F4635-0ACB-4E5E-8E1B-431E0818CF60} = {E0B8FBD1-A28A-4420-9DE2-6BD06035CBAC}
+		{64F6C488-2072-4481-89B0-8D1995759175} = {E0B8FBD1-A28A-4420-9DE2-6BD06035CBAC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B57FDA8F-95CF-478B-A0A8-7FF0F01CCFAB}
